@@ -1,0 +1,10 @@
+#note-list-container {
+  height: 100%;
+  overflow-y: auto;
+
+  #note-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+}

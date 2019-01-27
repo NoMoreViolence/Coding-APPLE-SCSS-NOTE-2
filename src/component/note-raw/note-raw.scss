@@ -1,0 +1,59 @@
+#note-what-for {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 1.5rem;
+  font-weight: normal;
+
+  > span:nth-last-child(1) {
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.25s;
+
+    &:hover {
+      color: red;
+    }
+  }
+}
+
+#note-form {
+  display: flex;
+  flex-direction: column;
+
+  #note-title {
+    margin-bottom: 1rem;
+    border: 1px solid #c2c2c2;
+    padding: 0.5rem;
+    outline: none;
+
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+
+  #note-text {
+    border: 1px solid #c2c2c2;
+    padding: 0.5rem;
+    resize: vertical;
+    outline: none;
+
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
+
+#add-or-change-note-button {
+  display: flex;
+  justify-content: flex-end;
+
+  > button {
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: black;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.25s;
+  }
+}

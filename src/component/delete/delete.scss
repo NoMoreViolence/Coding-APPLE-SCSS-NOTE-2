@@ -1,0 +1,41 @@
+#memo-what-for {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 1.5rem;
+  font-weight: normal;
+
+  > span:nth-last-child(1) {
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.25s;
+
+    &:hover {
+      color: red;
+    }
+  }
+}
+
+#memo-button {
+  display: flex;
+  justify-content: flex-end;
+
+  > button {
+    border: 1px solid #e24444;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: white;
+    color: #e24444;
+
+    font-size: 1.1rem;
+    font-weight: normal;
+
+    transition: 0.25s;
+
+    &:hover {
+      background-color: #e24444;
+      color: white;
+    }
+  }
+}
